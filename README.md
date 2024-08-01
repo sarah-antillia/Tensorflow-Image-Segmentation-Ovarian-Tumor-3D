@@ -6,8 +6,7 @@ OTU-3d (Ovarian Tumor 3d)
 </a>
  based on
 the <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, <br>
-In this experiment, we aim to demonstrate that a pre-augmented dataset is effective in improving the generalization performance 
-of a deep learning model for image segmentation.<br>
+In this experiment, we aim to demonstrate that <b>Pre-Augmented-ImageMask-Dataset</b> is effective in improving the generalization performance of a deep learning model for image segmentation.<br>
 <br>
 The original image dataset OTU_3d used here has been taken from the following google drive.
 <br>
@@ -16,10 +15,9 @@ The original image dataset OTU_3d used here has been taken from the following go
 <br>
 It contains three types of annotations: rgb, binary and binary_binary. In this experiment, for simplicity, 
 we focus only on the binary annotation type on training process.
-The number of the image files in OTU_3d dataset is 170, which is too small to use directly for training to our segmentation model
-without any preprocessing.
+The number of the image files in OTU_3d dataset is 170, which is too small to use directly for training to our segmentation model without any preprocessing.
 Hence, we applied the following image transformation methods to the original dataset to augment them and create 
-a <b>pre-augmented dataset</b>.
+the pre-augmented dataset.
 For more details, please refer to <a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a>. 
 <br>
 <ul>
@@ -174,7 +172,7 @@ MMOTU: A Multi-Modality Ovarian Tumor Ultrasound Image Dataset
 for Unsupervised Cross-Domain Semantic Segmentation</b></a><br>
 By the command above, 512x512 pixel-size image-mask master dataset will be created in <b>generator</b> folder.<br> 
 <pre> 
-./Ovarian-Tumor-3D-master-" + type 
+./Ovarian-Tumor-3D-master-Binary
  ├─images
  └─masks
 </pre>
