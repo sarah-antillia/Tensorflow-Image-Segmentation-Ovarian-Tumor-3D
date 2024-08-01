@@ -27,7 +27,7 @@ For more details, please refer to <a href="./generator/ImageMaskDatasetGenerator
 <li>vertical flipping</li>
 <li>rotation</li>
 <li>shrinking</li>
-<li>shearing</li
+<li>shearing</li>
 <li>deformation</li>
 <li>distortion</li>
 <li>barrel distortion</li>
