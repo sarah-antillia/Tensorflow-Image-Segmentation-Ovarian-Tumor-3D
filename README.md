@@ -182,7 +182,7 @@ By the command above, 512x512 pixel-size image-mask master dataset will be creat
 <h3>2.3 Split master</h3>
 Please run the following command for Python script <a href="./generator/split_master.py">split_master.py</a>
 <pre>
->python split_master.py
+>python split_master.py Binary
 </pre>
 By this command, <b>Ovarian-Tumor-3D-Binary</b> dataset will be created under <b>./dataset</b> folder. 
 
