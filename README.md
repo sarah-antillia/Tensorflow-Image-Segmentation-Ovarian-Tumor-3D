@@ -113,7 +113,7 @@ please download the OTU-3d from google drive:
 <pre>
 ./generator
 ├─OTU_3d
-│  ├─annotatations
+│  ├─annotations
 │  │  ├─1.PNG
 │  │  ├─1_binary.PNG
 │  │  ├─1_binary_binary.PNG
