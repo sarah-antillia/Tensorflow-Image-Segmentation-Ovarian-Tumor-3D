@@ -18,7 +18,7 @@ It contains three types of annotations: rgb, binary and binary_binary. In this e
 we focus only on the binary annotation type on training process.
 The number of the image files in OTU_3d dataset is 170, which is too small to use directly for training to our segmentation model
 without any preprocessing.
-Hence, we applied the following image transformation methods to the original dataset to augment them to create 
+Hence, we applied the following image transformation methods to the original dataset to augment them and create 
 a <b>pre-augmented dataset</b>.
 For more details, please refer to <a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a>. 
 <br>
